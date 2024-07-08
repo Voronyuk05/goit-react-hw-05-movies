@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { Link, Outlet } from "react-router-dom"
+import { Link } from "react-router-dom"
 
 const BASE_URL = 'https://api.themoviedb.org/3/trending/all/day?language=en-US&api_key=827079ab8a1518766a8e70a7e079713d'
 

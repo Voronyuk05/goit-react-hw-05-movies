@@ -1,5 +1,5 @@
 import { NavLink, Link, Outlet, useLocation, useParams } from "react-router-dom"
-import { useEffect, useState, Suspense } from "react"
+import { useEffect, useState } from "react"
 import styles from './MovieDetails.module.css'
 
 const BASE_URL = 'https://api.themoviedb.org/3/movie'

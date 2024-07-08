@@ -1,5 +1,5 @@
 import { NavLink, Outlet, useSearchParams  } from "react-router-dom"
-import { useEffect, useState, Suspense } from "react"
+import { useEffect, useState } from "react"
 
 const BASE_URL = 'https://api.themoviedb.org/3/search/movie?'
 const API_KEY = '827079ab8a1518766a8e70a7e079713d'
