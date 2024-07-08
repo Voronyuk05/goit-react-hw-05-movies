@@ -9,6 +9,12 @@ const API_KEY = '827079ab8a1518766a8e70a7e079713d'
     const [searchParams, setSearchParams] = useSearchParams();
     const query = searchParams.get("query");
     
+    useEffect(() => {
+        if (query) {
+            console.log(query);
+            searchMovies()
+        }
+    }, [])
 
     const searchMovies = () => {
         fetch(`${BASE_URL}query=${query}&include_adult=false&page=1&api_key=${API_KEY}`)
