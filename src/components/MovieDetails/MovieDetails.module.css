@@ -1,0 +1,17 @@
+.details {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    gap: 20px;
+    .backLink {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
