@@ -12,7 +12,7 @@ const Cast = () => {
         fetch(`${BASE_URL}/${movieId}/credits?api_key=${API_KEY}`)
         .then(data => data.json())
         .then(castData => setCast(castData.cast))
-    }, [])
+    })
 
     
     return (

@@ -14,7 +14,7 @@ const API_KEY = '827079ab8a1518766a8e70a7e079713d'
         fetch(`${BASE_URL}/${movieId}?api_key=${API_KEY}`)
         .then(data => data.json())
         .then(movieData => setMovie(movieData))
-    }, [])
+    })
 
 
 

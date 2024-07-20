@@ -12,7 +12,7 @@ const Reviews = () => {
         fetch(`${BASE_URL}/${movieId}/reviews?page=1&api_key=${API_KEY}`)
         .then(data => data.json())
         .then(reviewsData => setReviews(reviewsData.results))
-    }, [])
+    })
     
     return (
         <ul>
