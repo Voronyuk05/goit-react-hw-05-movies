@@ -8,7 +8,7 @@ const API_KEY = '827079ab8a1518766a8e70a7e079713d'
  const MovieDetails = () => {
     const [movie, setMovie] = useState()
     const location = useLocation()
-    const { movieId } = useParams();
+    const { movieId } = useParams()
 
     useEffect(() => {
         fetch(`${BASE_URL}/${movieId}?api_key=${API_KEY}`)
